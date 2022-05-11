@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Y+^m)|^=%?cntLNNas|F" x="20" y="20"/><block type="device_forever" id="4Y3L|JCN-XW3):k~H;rE" x="225" y="20"/><block type="device_gesture_event" id="kLq)%^P;S4WXP+7S]$Yf" x="65" y="150"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="input_compass_calibrate" id="*D#nv!unOGJw_7SZKfXk"/></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Y+^m)|^=%?cntLNNas|F" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="Bj+vQ4@GdKC~}A6(]T6G"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" id="(0`h^2Vl+d^i58zN?`7l"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="vj__HKdd9wN~/N8nBnN1"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="Zi4Yu~mL/{;w}$8D1bSL"><field name="NUM">0</field></shadow><block type="device_acceleration" id="S5`uyHWokKAX2Gq=at86"><field name="NAME">Dimension.X</field></block></value><value name="B"><shadow type="math_number" id="*FD%m/5.rn9;4]VLYo#o"><field name="NUM">-100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L?d*bmpx*)=lJ9gL,7nQ"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="device_forever" id="4Y3L|JCN-XW3):k~H;rE" x="205" y="0"/><block type="deviceisgesture" id="ZnqHe@9B*o=mi#7]z,34" disabled="true" x="157" y="586"><field name="gesture">Gesture.LogoUp</field></block><block type="logic_compare" id="1t.KVa;^]30l=E)-*!DP" disabled="true" x="203" y="717"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="fn1`TX~QJ=RZwZ_X+X,h" disabled="true"><field name="NAME">Dimension.X</field></block></value><value name="B"><shadow type="math_number" id="+.wG,H`}!67qU@|fEI6(" disabled="true"><field name="NUM">-100</field></shadow></value></block><block type="basic_show_icon" id="61P(.^40qT2Zgr+X=YIM" disabled="true" x="295" y="827"><field name="i">IconNames.Yes</field></block><block type="device_show_leds" id="AQ}iNQ3m0O]}b@!Il$T/" disabled="true" x="175" y="949"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></xml>
